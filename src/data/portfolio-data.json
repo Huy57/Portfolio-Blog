@@ -1,0 +1,32 @@
+{
+  "personalInfo": {
+    "name": "Your Name",
+    "title": "Full Stack Developer",
+    "bio": "Passionate about creating beautiful and functional digital experiences. Turning ideas into reality through code and design.",
+    "avatar": "/assets/images/avatar.jpg",
+    "email": "your.email@example.com",
+    "phone": "+84 123 456 789",
+    "location": "Ho Chi Minh City, Vietnam",
+    "birthday": "January 1, 1995"
+  },
+  "socialLinks": [
+    {
+      "id": "1",
+      "platform": "GitHub",
+      "url": "https://github.com/yourusername",
+      "icon": "github",
+      "username": "@yourusername"
+    },
+    {
+      "id": "2",
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/yourusername",
+      "icon": "linkedin",
+      "username": "Your Name"
+    }
+  ],
+  "timeline": [],
+  "projects": [],
+  "skills": [],
+  "gallery": []
+}
