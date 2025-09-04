@@ -16,7 +16,7 @@ app.use(compression());
 app.use(express.static(path.join(__dirname, 'dist')));
 
 // Handle React Router - trả về index.html cho mọi route
-app.get('*', (req, res) => {
+app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
