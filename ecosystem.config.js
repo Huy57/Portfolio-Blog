@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'portfolio-blog',
-    script: 'server.js',
+    script: 'server.mjs',
     env: {
       NODE_ENV: 'production',
       PORT: 3000
