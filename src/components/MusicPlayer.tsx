@@ -6,7 +6,7 @@ const MusicPlayer = () => {
   const [volume, setVolume] = useState(50) // Use 0-100 scale
   const [showControls, setShowControls] = useState(false)
   const audioRef = useRef<HTMLAudioElement>(null)
-  const timeoutRef = useRef<NodeJS.Timeout>()
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     // Auto play when component mounts

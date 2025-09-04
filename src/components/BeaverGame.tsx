@@ -15,16 +15,7 @@ const BeaverGame = () => {
   const [isPlaying, setIsPlaying] = useState(false)
   const [showGame, setShowGame] = useState(false)
   const gameAreaRef = useRef<HTMLDivElement>(null)
-  const intervalRef = useRef<NodeJS.Timeout>()
-
-  // Beaver emoji với các expressions khác nhau
-  const beaverFaces = {
-    normal: '🦫',
-    peek: '👀',
-    happy: '😊',
-    dizzy: '😵',
-    laugh: '😂'
-  }
+  const intervalRef = useRef<NodeJS.Timeout | null>(null)
 
   // Start game
   const startGame = () => {
